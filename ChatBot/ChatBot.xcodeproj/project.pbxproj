@@ -29,6 +29,7 @@
 		C225949A2AF4E9890049983E /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594992AF4E9890049983E /* MockMessage.swift */; };
 		C225949C2AF4E9920049983E /* MockChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225949B2AF4E9920049983E /* MockChatData.swift */; };
 		C22594A02AF4EB350049983E /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = C225949F2AF4EB350049983E /* LoremSwiftum */; };
+		C22594A32AF4EBD30049983E /* ChatInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C22594972AF4E97F0049983E /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
 		C22594992AF4E9890049983E /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
 		C225949B2AF4E9920049983E /* MockChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatData.swift; sourceTree = "<group>"; };
+		C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				C225948E2AF4E65B0049983E /* Extensions */,
 				C22594942AF4E8080049983E /* Helpers */,
 				C22594792AF4E20F0049983E /* Models */,
+				C22594A12AF4EBBD0049983E /* Modules */,
 				C22594802AF4E35B0049983E /* Views */,
 				C22594912AF4E7530049983E /* Utilities */,
 				C22594532AF4E1430049983E /* Assets.xcassets */,
@@ -241,6 +244,14 @@
 				C225949B2AF4E9920049983E /* MockChatData.swift */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		C22594A12AF4EBBD0049983E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +404,7 @@
 				C22594862AF4E5B30049983E /* ChatView.swift in Sources */,
 				C225948B2AF4E5D20049983E /* ContentMessageView.swift in Sources */,
 				C22594822AF4E38B0049983E /* HomeView.swift in Sources */,
+				C22594A32AF4EBD30049983E /* ChatInteractorProtocol.swift in Sources */,
 				C22594982AF4E97F0049983E /* MockUser.swift in Sources */,
 				C225947B2AF4E2220049983E /* User.swift in Sources */,
 			);
