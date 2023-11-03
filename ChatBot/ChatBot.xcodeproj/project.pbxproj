@@ -25,6 +25,9 @@
 		C22594902AF4E66D0049983E /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225948F2AF4E66D0049983E /* DateFormatter+.swift */; };
 		C22594932AF4E7630049983E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594922AF4E7630049983E /* Colors.swift */; };
 		C22594962AF4E81A0049983E /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594952AF4E81A0049983E /* DataFetcher.swift */; };
+		C22594982AF4E97F0049983E /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594972AF4E97F0049983E /* MockUser.swift */; };
+		C225949A2AF4E9890049983E /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594992AF4E9890049983E /* MockMessage.swift */; };
+		C225949C2AF4E9920049983E /* MockChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225949B2AF4E9920049983E /* MockChatData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		C225948F2AF4E66D0049983E /* DateFormatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+.swift"; sourceTree = "<group>"; };
 		C22594922AF4E7630049983E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C22594952AF4E81A0049983E /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		C22594972AF4E97F0049983E /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
+		C22594992AF4E9890049983E /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
+		C225949B2AF4E9920049983E /* MockChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 				C225947A2AF4E2220049983E /* User.swift */,
 				C225947C2AF4E22C0049983E /* Message.swift */,
 				C225947E2AF4E2360049983E /* MessageStatus.swift */,
+				C225949D2AF4EAC50049983E /* Mock */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,6 +229,16 @@
 				C22594952AF4E81A0049983E /* DataFetcher.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C225949D2AF4EAC50049983E /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				C22594972AF4E97F0049983E /* MockUser.swift */,
+				C22594992AF4E9890049983E /* MockMessage.swift */,
+				C225949B2AF4E9920049983E /* MockChatData.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,17 +372,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22594962AF4E81A0049983E /* DataFetcher.swift in Sources */,
+				C225949C2AF4E9920049983E /* MockChatData.swift in Sources */,
 				C22594902AF4E66D0049983E /* DateFormatter+.swift in Sources */,
 				C22594932AF4E7630049983E /* Colors.swift in Sources */,
 				C22594522AF4E1410049983E /* ContentView.swift in Sources */,
 				C225947F2AF4E2360049983E /* MessageStatus.swift in Sources */,
 				C225947D2AF4E22C0049983E /* Message.swift in Sources */,
+				C225949A2AF4E9890049983E /* MockMessage.swift in Sources */,
 				C22594502AF4E1410049983E /* ChatBotApp.swift in Sources */,
 				C225948D2AF4E5DE0049983E /* MessageStatusView.swift in Sources */,
 				C22594892AF4E5C60049983E /* MessageView.swift in Sources */,
 				C22594862AF4E5B30049983E /* ChatView.swift in Sources */,
 				C225948B2AF4E5D20049983E /* ContentMessageView.swift in Sources */,
 				C22594822AF4E38B0049983E /* HomeView.swift in Sources */,
+				C22594982AF4E97F0049983E /* MockUser.swift in Sources */,
 				C225947B2AF4E2220049983E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
