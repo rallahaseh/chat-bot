@@ -30,6 +30,8 @@
 		C225949C2AF4E9920049983E /* MockChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225949B2AF4E9920049983E /* MockChatData.swift */; };
 		C22594A02AF4EB350049983E /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = C225949F2AF4EB350049983E /* LoremSwiftum */; };
 		C22594A32AF4EBD30049983E /* ChatInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */; };
+		C22594A52AF4EC5E0049983E /* MockChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */; };
+		C22594A72AF4EC970049983E /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A62AF4EC970049983E /* Date+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		C22594992AF4E9890049983E /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
 		C225949B2AF4E9920049983E /* MockChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatData.swift; sourceTree = "<group>"; };
 		C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractorProtocol.swift; sourceTree = "<group>"; };
+		C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatInteractor.swift; sourceTree = "<group>"; };
+		C22594A62AF4EC970049983E /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,7 @@
 		C225948E2AF4E65B0049983E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C22594A62AF4EC970049983E /* Date+.swift */,
 				C225948F2AF4E66D0049983E /* DateFormatter+.swift */,
 			);
 			path = Extensions;
@@ -250,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */,
+				C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -402,8 +408,10 @@
 				C225948D2AF4E5DE0049983E /* MessageStatusView.swift in Sources */,
 				C22594892AF4E5C60049983E /* MessageView.swift in Sources */,
 				C22594862AF4E5B30049983E /* ChatView.swift in Sources */,
+				C22594A72AF4EC970049983E /* Date+.swift in Sources */,
 				C225948B2AF4E5D20049983E /* ContentMessageView.swift in Sources */,
 				C22594822AF4E38B0049983E /* HomeView.swift in Sources */,
+				C22594A52AF4EC5E0049983E /* MockChatInteractor.swift in Sources */,
 				C22594A32AF4EBD30049983E /* ChatInteractorProtocol.swift in Sources */,
 				C22594982AF4E97F0049983E /* MockUser.swift in Sources */,
 				C225947B2AF4E2220049983E /* User.swift in Sources */,
