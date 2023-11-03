@@ -77,6 +77,9 @@ extension ChatView {
                 }
             }
         }
+        .onTapGesture {
+            self.hideKeyboard()
+        }
         .onAppear(perform: viewModel.onStart)
         .onDisappear(perform: viewModel.onStop)
         .onChange(of: viewModel.messages) { _ in

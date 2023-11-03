@@ -33,6 +33,7 @@
 		C22594A52AF4EC5E0049983E /* MockChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */; };
 		C22594A72AF4EC970049983E /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A62AF4EC970049983E /* Date+.swift */; };
 		C22594AA2AF4EE010049983E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A92AF4EE010049983E /* ChatViewModel.swift */; };
+		C22594AC2AF4EEF30049983E /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594AB2AF4EEF30049983E /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatInteractor.swift; sourceTree = "<group>"; };
 		C22594A62AF4EC970049983E /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		C22594A92AF4EE010049983E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		C22594AB2AF4EEF30049983E /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 			children = (
 				C22594A62AF4EC970049983E /* Date+.swift */,
 				C225948F2AF4E66D0049983E /* DateFormatter+.swift */,
+				C22594AB2AF4EEF30049983E /* View+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				C225949C2AF4E9920049983E /* MockChatData.swift in Sources */,
 				C22594902AF4E66D0049983E /* DateFormatter+.swift in Sources */,
 				C22594932AF4E7630049983E /* Colors.swift in Sources */,
+				C22594AC2AF4EEF30049983E /* View+.swift in Sources */,
 				C22594522AF4E1410049983E /* ContentView.swift in Sources */,
 				C225947F2AF4E2360049983E /* MessageStatus.swift in Sources */,
 				C225947D2AF4E22C0049983E /* Message.swift in Sources */,
