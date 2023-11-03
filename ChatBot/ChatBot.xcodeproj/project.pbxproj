@@ -35,6 +35,7 @@
 		C22594AA2AF4EE010049983E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A92AF4EE010049983E /* ChatViewModel.swift */; };
 		C22594AC2AF4EEF30049983E /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594AB2AF4EEF30049983E /* View+.swift */; };
 		C22594AE2AF4F0710049983E /* ChatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594AD2AF4F0710049983E /* ChatViewModelTests.swift */; };
+		C2B972082AF4F23800137F37 /* MockChatInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B972072AF4F23800137F37 /* MockChatInteractorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		C22594A92AF4EE010049983E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		C22594AB2AF4EEF30049983E /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		C22594AD2AF4F0710049983E /* ChatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTests.swift; sourceTree = "<group>"; };
+		C2B972072AF4F23800137F37 /* MockChatInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatInteractorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			children = (
 				C22594602AF4E1440049983E /* ChatBotTests.swift */,
 				C22594AD2AF4F0710049983E /* ChatViewModelTests.swift */,
+				C2B972072AF4F23800137F37 /* MockChatInteractorTests.swift */,
 			);
 			path = ChatBotTests;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B972082AF4F23800137F37 /* MockChatInteractorTests.swift in Sources */,
 				C22594AE2AF4F0710049983E /* ChatViewModelTests.swift in Sources */,
 				C22594612AF4E1440049983E /* ChatBotTests.swift in Sources */,
 			);
