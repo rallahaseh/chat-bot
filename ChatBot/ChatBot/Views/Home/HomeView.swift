@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var isShowingChatView = false
+    
+    // Initialize the view model with a mock chat interactor.
+    private let viewModel = ChatViewModel(
+        interactor: MockChatInteractor(isActive: true)
+    )
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -29,6 +36,23 @@ struct HomeView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 Spacer()
+                
+                // Start Chat Button
+                NavigationLink(destination: ChatView(viewModel: viewModel), isActive: $isShowingChatView) {
+                    Button(action: {
+                        self.isShowingChatView = true
+                    }) {
+                        Text("Start Chat")
+                            .frame(maxWidth: .infinity)
+                            .font(.system(size: 24))
+                            .foregroundColor(Color.gray)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 24)
+                                    .stroke(Color.gray, lineWidth: 2)
+                            )
+                            .padding([.leading, .trailing], 32)
+                    }
+                }
             }
         }
         .navigationTitle("Navigation")
