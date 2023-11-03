@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import LoremSwiftum
 
 /// A class responsible for generating mock chat data.
 final class MockChatData {
@@ -42,7 +43,8 @@ final class MockChatData {
         let date = date ?? Date()
         
         
-        let generateText = "TEST"
+        // Use the LoremSwiftum library to generate random text content.
+        let generateText = Lorem.sentences(Int.random(in: 1...3))
         
         return MockMessage(
             uid: UUID().uuidString,
