@@ -21,7 +21,7 @@ public struct User: Codable, Identifiable, Hashable {
     
     /// A boolean flag indicating whether the user is the current user.
     public let isCurrentUser: Bool
-
+    
     /// Initializes a new User object with the provided information.
     ///
     /// - Parameters:
@@ -34,5 +34,14 @@ public struct User: Codable, Identifiable, Hashable {
         self.name = name
         self.avatarURL = avatarURL
         self.isCurrentUser = isCurrentUser
+    }
+}
+
+extension User {
+    /// Converts a `User` to a `MockUser` for chat representation.
+    ///
+    /// - Returns: A `MockUser` object with equivalent properties.
+    func toMockUser() -> MockUser {
+        MockUser(uid: id, name: name, avatar: avatarURL)
     }
 }

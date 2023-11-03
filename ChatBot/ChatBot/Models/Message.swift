@@ -52,3 +52,18 @@ public struct Message: Identifiable, Hashable, Equatable {
         lhs.id == rhs.id && lhs.status == rhs.status
     }
 }
+
+extension Message {
+    /// Converts a `Message` to a `MockMessage` for chat representation.
+    ///
+    /// - Returns: A `MockMessage` object with equivalent properties.
+    func toMockMessage() -> MockMessage {
+        MockMessage(
+            uid: id,
+            sender: user.toMockUser(),
+            createdAt: createdAt,
+            text: text,
+            status: user.isCurrentUser ? status : nil
+        )
+    }
+}
