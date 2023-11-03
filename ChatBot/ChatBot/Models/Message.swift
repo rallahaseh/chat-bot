@@ -24,7 +24,12 @@ public struct Message: Identifiable, Hashable, Equatable {
     
     /// The text content of the message.
     public var text: String
-        
+    
+    /// A formatted string representing the time of the message.
+    public var time: String {
+        DateFormatter.timeFormatter.string(from: createdAt)
+    }
+    
     /// Initializes a new Message object with the provided information.
     ///
     /// - Parameters:
