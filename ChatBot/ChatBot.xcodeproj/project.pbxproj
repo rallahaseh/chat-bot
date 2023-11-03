@@ -32,6 +32,7 @@
 		C22594A32AF4EBD30049983E /* ChatInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */; };
 		C22594A52AF4EC5E0049983E /* MockChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */; };
 		C22594A72AF4EC970049983E /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A62AF4EC970049983E /* Date+.swift */; };
+		C22594AA2AF4EE010049983E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A92AF4EE010049983E /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		C22594A22AF4EBD30049983E /* ChatInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractorProtocol.swift; sourceTree = "<group>"; };
 		C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatInteractor.swift; sourceTree = "<group>"; };
 		C22594A62AF4EC970049983E /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		C22594A92AF4EE010049983E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				C22594A12AF4EBBD0049983E /* Modules */,
 				C22594802AF4E35B0049983E /* Views */,
 				C22594912AF4E7530049983E /* Utilities */,
+				C22594A82AF4EDEC0049983E /* ViewModels */,
 				C22594532AF4E1430049983E /* Assets.xcassets */,
 				C22594552AF4E1430049983E /* Preview Content */,
 			);
@@ -258,6 +261,14 @@
 				C22594A42AF4EC5E0049983E /* MockChatInteractor.swift */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		C22594A82AF4EDEC0049983E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C22594A92AF4EE010049983E /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +425,7 @@
 				C22594A52AF4EC5E0049983E /* MockChatInteractor.swift in Sources */,
 				C22594A32AF4EBD30049983E /* ChatInteractorProtocol.swift in Sources */,
 				C22594982AF4E97F0049983E /* MockUser.swift in Sources */,
+				C22594AA2AF4EE010049983E /* ChatViewModel.swift in Sources */,
 				C225947B2AF4E2220049983E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
