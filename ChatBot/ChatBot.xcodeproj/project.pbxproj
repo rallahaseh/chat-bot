@@ -17,6 +17,7 @@
 		C225947B2AF4E2220049983E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225947A2AF4E2220049983E /* User.swift */; };
 		C225947D2AF4E22C0049983E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225947C2AF4E22C0049983E /* Message.swift */; };
 		C225947F2AF4E2360049983E /* MessageStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225947E2AF4E2360049983E /* MessageStatus.swift */; };
+		C22594822AF4E38B0049983E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594812AF4E38B0049983E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C225947A2AF4E2220049983E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C225947C2AF4E22C0049983E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C225947E2AF4E2360049983E /* MessageStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStatus.swift; sourceTree = "<group>"; };
+		C22594812AF4E38B0049983E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				C22594512AF4E1410049983E /* ContentView.swift */,
+				C22594832AF4E3CC0049983E /* Home */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C22594832AF4E3CC0049983E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C22594812AF4E38B0049983E /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				C225947F2AF4E2360049983E /* MessageStatus.swift in Sources */,
 				C225947D2AF4E22C0049983E /* Message.swift in Sources */,
 				C22594502AF4E1410049983E /* ChatBotApp.swift in Sources */,
+				C22594822AF4E38B0049983E /* HomeView.swift in Sources */,
 				C225947B2AF4E2220049983E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
