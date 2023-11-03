@@ -34,6 +34,7 @@
 		C22594A72AF4EC970049983E /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A62AF4EC970049983E /* Date+.swift */; };
 		C22594AA2AF4EE010049983E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594A92AF4EE010049983E /* ChatViewModel.swift */; };
 		C22594AC2AF4EEF30049983E /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594AB2AF4EEF30049983E /* View+.swift */; };
+		C22594AE2AF4F0710049983E /* ChatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22594AD2AF4F0710049983E /* ChatViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		C22594A62AF4EC970049983E /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		C22594A92AF4EE010049983E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		C22594AB2AF4EEF30049983E /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		C22594AD2AF4F0710049983E /* ChatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				C22594602AF4E1440049983E /* ChatBotTests.swift */,
+				C22594AD2AF4F0710049983E /* ChatViewModelTests.swift */,
 			);
 			path = ChatBotTests;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22594AE2AF4F0710049983E /* ChatViewModelTests.swift in Sources */,
 				C22594612AF4E1440049983E /* ChatBotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
